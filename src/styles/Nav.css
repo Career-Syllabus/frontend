@@ -1,0 +1,51 @@
+.wave1 {
+    width: 100%;
+    height: 20vh;
+}
+
+.navvy {
+    border: dashed 1px teal;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -140px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.NavBar a{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    -webkit-text-stroke-width: .01px; 
+    -webkit-text-stroke-color: white; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.NavBar {
+    display: flex;
+    background: transparent;
+    width: 30%;
+}
+
+.NavRight a{
+    background: transparent;
+    font-size: 35px;
+    color: #05EBF3;
+    background: transparent;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.NavRight {
+    background: transparent;
+    display: flex;
+    width: 18%;
+    margin-right: 30px;
+    justify-content: space-around;
+}

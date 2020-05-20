@@ -1,14 +1,8 @@
 .test {
     margin: 0 auto;
-    /* height: 10vh; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-self: flex-end; */
-    /* border: red solid 1px; */
-    /* border: green solid 2px; */
-    /* background-image: url("../assets/wave2.png"); */
-    /* padding: 200px; */
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .wave2 {
@@ -16,11 +10,8 @@
     height: 150px;
     background: transparent;
     position: absolute;
-    /* top: 900; */
     left:0;
     bottom: 0;
-    /* border: magenta dotted 2px; */
-    /* overflow: hidden; */
     z-index: 10;
 }
 
@@ -29,7 +20,7 @@
     z-index: 200;
     width: 20%;
     margin: 0 auto;
-    /* border: blue solid 1px; */
+    margin-top: 100px;
     background: transparent;
     font-size: 20px;
     color: white;
