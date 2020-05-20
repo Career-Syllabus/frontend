@@ -1,12 +1,18 @@
 import React from 'react';
-import './App.css';
+import Nav from "./components/Nav.js";
+import SignNav from "./components/SignNav.js";
+import Welcome from "./components/Welcome.js";
+
+import './styles/App.css';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <h1>HELLO</h1>
-      </header>
+      {/* <Nav /> */}
+      <SignNav />
+      <Welcome />
+      <Footer />
     </div>
   );
 }
