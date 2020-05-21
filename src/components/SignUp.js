@@ -1,8 +1,11 @@
 import React from 'react';
+import Nav from "./Nav.js";
 import '../styles/SignUp.css';
 
 function SignUp() {
   return (
+   <>
+   <Nav />
     <div class="SignUpContainer">
      <h1>SignUp Page</h1>
      <form>
@@ -35,6 +38,7 @@ function SignUp() {
      <p>already have an account? log in <a href="/SignIn">here.</a></p>
      <button>submit</button>
     </div>
+   </>
   );
 }
 

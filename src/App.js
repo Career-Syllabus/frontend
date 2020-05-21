@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route } from "react-router-dom";
-import Nav from "./components/Nav.js";
 import Welcome from "./components/Welcome.js";
 import Footer from './components/Footer.js';
 import EmailConfirmation from './components/EmailConfirmation.js';
@@ -15,11 +14,9 @@ import './styles/App.css';
 
 function App() {
 
-  const [isWelcome, setIsWelcome] = React.useState(false);
 
   return (
     <div className="App">
-      <Nav isWelcome={isWelcome} />
       <Route exact path="/" component={Welcome} />
       <Route exact path="/EmailConfirmation" component={EmailConfirmation} />
       <Route exact path="/Dashboard" component={Dashboard} />

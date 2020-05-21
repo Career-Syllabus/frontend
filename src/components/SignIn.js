@@ -1,8 +1,11 @@
 import React from 'react';
+import Nav from "./Nav.js";
 import '../styles/SignIn.css';
 
 function SignIn() {
   return (
+    <>
+    <Nav />
     <div>
      <h1>SignIn Page</h1>
      <div class="SignInContainer">
@@ -18,11 +21,12 @@ function SignIn() {
           required
        />
      </form>
-     <p>don’t have an account? sign up here.</p>
+     <p>don’t have an account? sign up <a href="/SignUp">here.</a></p>
      <p>forgot password?</p>
      <button>submit</button>
     </div>
     </div>
+    </>
   );
 }
 
