@@ -18,10 +18,10 @@ function App() {
   return (
     <div className="App">
       <Route exact path="/" component={Welcome} />
-      <Route exact path="/EmailConfirmation" component={EmailConfirmation} />
-      <Route exact path="/Dashboard" component={Dashboard} />
-      <Route exact path="/SignIn" component={SignIn} />
-      <Route exact path="/SignUp" component={SignUp} />
+      <Route path="/EmailConfirmation" component={EmailConfirmation} />
+      <Route path="/Dashboard" component={Dashboard} />
+      <Route path="/SignIn" component={SignIn} />
+      <Route path="/SignUp" component={SignUp} />
       <Route exact path="/Contact" component={Contact} />
       <Route exact path="/Features" component={Features} />
       <Route exact path="/About" component={About} />

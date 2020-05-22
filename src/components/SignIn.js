@@ -6,9 +6,8 @@ function SignIn() {
   return (
     <>
     <Nav />
-    <div>
-     <h1>SignIn Page</h1>
      <div class="SignInContainer">
+     <h1>SignIn Page</h1>
      <form>
        <input
           type="text"
@@ -22,9 +21,8 @@ function SignIn() {
        />
      </form>
      <p>don’t have an account? sign up <a href="/SignUp">here.</a></p>
-     <p>forgot password?</p>
+     <h3>forgot password?</h3>
      <button>submit</button>
-    </div>
     </div>
     </>
   );

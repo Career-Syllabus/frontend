@@ -38,10 +38,11 @@
     background: transparent;
     width: 30%;
     margin-right: 50px;
+    margin-top: -10px;
 }
 
 .smallLogo {
-    width: 50%;
+    /* width: 48%; */
     font-family: Unica One;
     font-weight: normal;
     font-size: 4em;
