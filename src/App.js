@@ -1,12 +1,32 @@
 import React from 'react';
-import './App.css';
+import { Route } from "react-router-dom";
+import Welcome from "./components/Welcome.js";
+import Footer from './components/Footer.js';
+import EmailConfirmation from './components/EmailConfirmation.js';
+import Dashboard from "./components/Dashboard.js";
+import SignIn from "./components/SignIn.js";
+import SignUp from "./components/SignUp.js";
+import Contact from "./components/Contact.js";
+import Features from "./components/Features.js";
+import About from "./components/About.js";
+
+import './styles/App.css';
 
 function App() {
+
+
   return (
     <div className="App">
-      <header className="App-header">
-       <h1>HELLO</h1>
-      </header>
+      <Route exact path="/" component={Welcome} />
+      <Route path="/EmailConfirmation" component={EmailConfirmation} />
+      <Route path="/Dashboard" component={Dashboard} />
+      <Route path="/SignIn" component={SignIn} />
+      <Route path="/SignUp" component={SignUp} />
+      <Route exact path="/Contact" component={Contact} />
+      <Route exact path="/Features" component={Features} />
+      <Route exact path="/About" component={About} />
+
+      <Footer />
     </div>
   );
 }
