@@ -15,9 +15,9 @@ export default function Nav(props) {
         </div>
           <div class="NavBar">
             <NavLink to="/">home</NavLink>
-            <NavLink to="/features">features</NavLink>
-            <NavLink to="/about">about</NavLink>
-            <NavLink to="/contact">contact</NavLink>
+            <NavLink to="/Features">features</NavLink>
+            <NavLink to="/About">about</NavLink>
+            <NavLink to="/Contact">contact</NavLink>
           </div>
       </div>
     </div>
