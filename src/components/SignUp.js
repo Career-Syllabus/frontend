@@ -35,7 +35,7 @@ function SignUp() {
           required
        />
      </form>
-     <p>already have an account? log in <a href="/SignIn">here.</a></p>
+     <p>already have an account? log in <a href="/signin">here.</a></p>
      <button>submit</button>
     </div>
    </>

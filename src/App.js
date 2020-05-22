@@ -18,13 +18,13 @@ function App() {
   return (
     <div className="App">
       <Route exact path="/" component={Welcome} />
-      <Route path="/EmailConfirmation" component={EmailConfirmation} />
-      <Route path="/Dashboard" component={Dashboard} />
-      <Route path="/SignIn" component={SignIn} />
-      <Route path="/SignUp" component={SignUp} />
-      <Route exact path="/Contact" component={Contact} />
-      <Route exact path="/Features" component={Features} />
-      <Route exact path="/About" component={About} />
+      <Route path="/emailconfirmation" component={EmailConfirmation} />
+      <Route path="/dashboard" component={Dashboard} />
+      <Route path="/signin" component={SignIn} />
+      <Route path="/signup" component={SignUp} />
+      <Route exact path="/contact" component={Contact} />
+      <Route exact path="/features" component={Features} />
+      <Route exact path="/about" component={About} />
 
       <Footer />
     </div>
