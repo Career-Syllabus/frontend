@@ -36,7 +36,7 @@ function SignUp() {
           required
        />
      </form>
-     <p>already have an account? log in <NavLink href="/signin">here.</NavLink></p>
+     <p>already have an account? log in <NavLink to="/signin">here.</NavLink></p>
      <button>submit</button>
     </div>
    </>
