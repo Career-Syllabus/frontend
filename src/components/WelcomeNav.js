@@ -11,14 +11,14 @@ export default function WelcomeNav() {
         <div class="Nav">
           <div class="navChildLeft">
             <NavLink to="/">home</NavLink>
-            <NavLink to="/features">features</NavLink>
-            <NavLink to="/about">about</NavLink>
-            <NavLink to="/contact">contact</NavLink>
+            <NavLink to="/Features">features</NavLink>
+            <NavLink to="/About">about</NavLink>
+            <NavLink to="/Contact">contact</NavLink>
           </div>
           <div class="navChildRight">
-            <NavLink to="/signup">sign up</NavLink>
+            <NavLink to="/SignUp">sign up</NavLink>
             <hr />
-            <NavLink to="/signin">sign in</NavLink>
+            <NavLink to="/SignIn">sign in</NavLink>
           </div>
         </div>
       </div>
