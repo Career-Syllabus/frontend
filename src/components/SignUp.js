@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 import Nav from "./Nav.js";
 import '../styles/SignUp.css';
 
@@ -35,7 +36,7 @@ function SignUp() {
           required
        />
      </form>
-     <p>already have an account? log in <a href="/SignIn">here.</a></p>
+     <p>already have an account? log in <NavLink href="/signin">here.</NavLink></p>
      <button>submit</button>
     </div>
    </>
