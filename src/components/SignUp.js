@@ -35,9 +35,9 @@ function SignUp() {
           placeholder="password"
           required
        />
+      <p>already have an account? log in <NavLink to="/signin">here.</NavLink></p>
+      <button type="submit">submit</button>
      </form>
-     <p>already have an account? log in <NavLink to="/signin">here.</NavLink></p>
-     <button>submit</button>
     </div>
    </>
   );
